@@ -1,0 +1,141 @@
+body{
+
+	background-image:url("../resimler/macaroon.jpeg");
+	background-position:center;
+	background-size: 1540px 900px ;
+	background-repeat: no-repeat;
+	background-origin: border-box;
+	background-attachment: fixed;
+	font-family: century gothic;
+	font-size: 13px;
+}
+
+*{
+	margin:0;
+	padding: 0;
+	list-style: none;	
+}
+
+.font{
+	font-size: 16px;
+	text-align: center;
+}
+.font-2{font-size: 16px;}
+
+.buton{
+	background-color:pink;
+	opacity: 0.8;
+	border: none;
+	padding: 5px 35px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-family: century gothic;
+	font-size: 14px;
+	color: black;
+	transition: 0.3s;
+}
+
+.buton:hover {opacity: 0.9}
+
+.table{
+	font-size:14px;
+	background-color: black; 
+	color:white;
+	opacity:0.8; 
+}
+.tblhov:hover{ opacity: 0.8; background-color: #ffe8f9; color: black;}
+
+.sidebar{
+	position: fixed;
+	height: 100%;
+	color: white;
+	left: 0;
+	width: 256px;
+	height: 100%;
+	opacity: 0.8;
+	background-color:black;
+	
+}
+.sidebar header{
+	
+	color: white;
+	text-align: center;
+	line-height: 70px;
+	font-size: 22px;
+	user-select: none;
+	opacity: 0.8;
+}
+.sidebar ul li a{
+	display: block;
+	font-family: century gothic;
+	font-size: 15px;
+	height: 100%;
+	width: 100%;
+	line-height: 40px;
+	text-decoration: none;	
+	color: white;
+	padding-left: 40px;
+	
+	border-top: 1px solid pink;
+	border-bottom: 1px solid pink;
+	transition: .3s;
+}
+ul li:hover a{
+	padding-left: 50px;
+}
+.sidebar ul  a i{
+	margin-right: 16px;
+}
+.box{
+	border: 2px solid lightgreen;
+	height: 90px;
+	width: 80px;
+	border-radius: 5px;
+	
+	padding: 10px 25px;
+	background-color: black;
+	opacity: 0.7;
+	color: lightgrey;
+}
+.box-1{
+	border: 2px solid lightgreen;
+	height: 90px;
+	width: 180px;
+	border-radius: 5px;
+	
+	padding: 10px 25px;
+	background-color: black;
+	opacity: 0.7;
+	color: lightgrey;
+	font-family: Comis Sans MS;
+	font-size: 18px;
+
+}
+.nav{
+	background-color:black; 
+	color: white; 
+	border-bottom-style: solid; 
+	border-color:pink;
+	border-width: 2px; 
+	opacity: 0.8;
+}
+
+.kart{
+	border-radius:6px; 
+	margin-right:4px; 
+	background:#fbfbff; 
+	opacity: 0.8;
+	border: 1px solid lightgray;
+}
+.footer{
+	height: 30px;
+	width: 100%;
+	background-color:black; 
+	color: white;
+	text-align: center;
+	position:fixed; 
+	bottom:0; 
+	opacity:0.8; 
+	margin:0;" 
+}

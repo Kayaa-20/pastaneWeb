@@ -1,0 +1,88 @@
+body{
+
+	background-image:url("../resimler/macaroon.jpeg");
+	background-position:center;
+	background-size: 1540px 900px ;
+	background-repeat: norepeat;
+	background-origin: borderbox;
+	background-attachment: fixed;
+	font-size: 14px;
+	font-family: Century Gothic;
+}
+a{
+	
+	text-decoration: none;
+}
+li{
+	list-style-type: none;
+}
+ul.menu{
+	background: black;
+}
+ul.menu >li{
+	float: left;
+	position: relative;
+	padding-left: 40px;
+}
+ul.menu >li >a{
+	display: block;
+	font-size: 14px;
+	color: #fff;
+	padding: 0 15px;
+	line-height: 50px;
+	border-right: 1px solid rgba(0,0,0,.1);
+}
+ul.menu ul{
+	widht: 200px;
+	position:absolute;
+	background: black;
+	top: 30px;
+	left: 40px;
+	z-index:2;
+	padding: 10px;
+	opacity: 0;
+	transition: 250ms all;
+	visibility: hidden;
+	/*display: none;*/
+}
+ul.menu ul li{
+	position:  relative;
+
+	width: 165px;
+}
+ul.menu ul li a{
+	display: block;
+	padding: 7px 12px;
+	color: white;
+	width: 160px;
+	font-size: 14px;
+	
+}
+ul.menu >li ul ul{
+	top: 0;
+	left: 200px;
+	width: 180px;
+}
+ul.menu >li:hover >ul{
+	opacity: 1;
+	visibility: visible;
+	top: 50px;
+}
+ul.menu ul li:hover >ul{
+	opacity: 1;
+	visibility: visible;
+	left: 160px;
+}
+
+a:visited{color:deepskyblue;text-decoration: none; list-style-type: none;}
+a:hover{color:deeppink;text-decoration: none; }
+.fontson{text-decoration: none; color:white;background: black;}
+.kenarlik{ border: medium solid black;}
+.icerik{
+	background-color:black; 
+	color:white; 
+	opacity: 0.7;
+}
+.renk{
+	color: deepskyblue;
+}
