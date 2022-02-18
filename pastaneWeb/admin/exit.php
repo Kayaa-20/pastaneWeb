@@ -8,6 +8,7 @@
 	<?php 
 		session_start();
 		unset($_SESSION['adSoyad']);
+		unset($_SESSION['musteriAd']);
 		header("Location:../index.php?loggin");
 	?>
 </body>
