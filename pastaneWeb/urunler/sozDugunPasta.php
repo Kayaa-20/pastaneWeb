@@ -27,7 +27,7 @@ $ks=$sonuc->num_rows;
 					</div>
 					<div class="col-12 pt-2 icerik" ><?php echo $urunAd; ?></div>
 					<div class="col-12 pb-2 icerik"><?php echo $urunFiyat; ?> TL </div>
-					<div class="col pb-2 icerik" >x
+					<div class="col pb-2 icerik" >
 						<button type="button" class="btn btn-block btn-secondary">
 							Sepete Ekle
 						</button>
